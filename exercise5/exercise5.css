@@ -1,0 +1,36 @@
+h1{
+  color: #ffffff;
+}
+header {
+  background-color: #76a4d6;
+}
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+a:hover{
+  color: #ff0000;
+  text-decoration: underline;
+}
+h2{
+  color: #0000ff;
+}
+.yellow{
+  color: #ffce3d;
+}
+h3{
+  background-color: #fff700;
+}
+#redtext{
+  color: #ff0000;
+}
+h4{
+  color: #ffce3d;
+  background-color: #00590d;
+}
+#greenback{
+  background-color: #8cd496;
+}
+h5{
+  color: #fc56e6;
+}

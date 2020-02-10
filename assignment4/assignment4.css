@@ -1,0 +1,23 @@
+a {
+  color:#ff0000;
+}
+a:visited {
+ color: #00ff00;
+}
+a:hover {
+  color: #0000ff;
+}
+p {
+  color: #024601;
+}
+.Header {
+  color: #123456;
+  background-color: #c4dbff;
+}
+#footerdiv {
+  color: #117d74;
+
+}
+.spanstyle {
+  background-color: #d69ad1;
+}
