@@ -7,17 +7,34 @@ a:visited {
 a:hover {
   color: #0000ff;
 }
-p {
-  color: #024601;
-}
 .Header {
-  color: #123456;
-  background-color: #c4dbff;
+  color: #c76700;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
 }
 #footerdiv {
-  color: #117d74;
-
-}
-.spanstyle {
+  color: #ffffff;
   background-color: #d69ad1;
+  font-style: italic;
+}
+body{
+  font-family: sans-serif;
+  background-image: url(images/DSC_0036.jpg);
+}
+.textcenter{
+  text-align: center;
+}
+#justify{
+  text-align: justify;
+}
+p{
+  text-align: justify;
+  color: #ffffff;
+}
+img{
+  border: 5px solid #000000;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
 }
