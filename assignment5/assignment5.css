@@ -53,5 +53,5 @@ main{
     border-bottom: 5px solid #7c008f;
 }
 #person{
-height: 10px;
+border-top: 10px solid black;
 }
