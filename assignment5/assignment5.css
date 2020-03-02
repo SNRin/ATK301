@@ -1,8 +1,7 @@
 body{
   background-color: #FBD335;
-  font: impact;
-  font-weight: bolder;
-  font-family: sans-serif;
+  font-family:: impact, sans-serif;
+  font-weight: bold;
   width: 650px;
   }
 .s{
@@ -21,7 +20,7 @@ h1{
   margin-top: 8px;
   margin-bottom: 0px;
 }
-.justify{
+#justify{
   text-align: justify;
 }
 .center{
