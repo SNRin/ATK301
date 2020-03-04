@@ -4,7 +4,6 @@ body{
 #wrapper{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
   width: 960px;
   margin: 1em auto;
   background-color: white;
@@ -36,22 +35,18 @@ li a:hover{
 }
 header{
   grid-column: span 4;
-  grid-row: span 1;
   Border:0px solid orange;
 }
 nav{
   grid-column: span 1;
-  grid-row: span 4;
   border: 0px solid blue;
 }
 main{
   grid-column: span 3;
-  grid-row: span 4;
   border: 0px solid purple;
 }
 footer{
   grid-column: span 4;
-  grid-row: span 1;
 }
 h2{
   font-family: helvetica;
