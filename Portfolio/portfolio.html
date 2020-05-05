@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	  <script type="text/jquery" src="slick/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+	 <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+	<link href="portfolio.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+
+ <script type="text/javascript">
+	 $(document).ready(function(){
+		 $('.slick-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+	 });
+ </script>
+
+	<div id="wrapper">
+		<header>
+			<h1>SNRINGLE Creative Technologies</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="Portfolio-main.html" target="_blank">Home</a></li>
+				<li><a href="Photography.html" target="_blank">Photography</a></li>
+				<li><a href="Other.html" target="_blank">Other Artwork</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="slick-slider">
+	  <div><img src="images/img1.png"></div>
+	  <div><img src="images/img2.png"></div>
+	  <div><img src="images/img3.png"></div>
+	</div>
+		</main>
+		<footer>
+			<p id=copyright>©Me2020</p>
+	</div>
+	</div>
+</body>
+</html>
