@@ -1,10 +1,12 @@
 body {
   background-color: #000000;
+
 }
 
 #wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  width: 1200px;
 }
 header{
   background-color: #2f3340;
@@ -14,6 +16,8 @@ header{
   grid-column: span 12;
   height: 70px;
   text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 h1{
     color: white;
@@ -21,7 +25,6 @@ h1{
     font-weight: normal;
 }
 nav{
-  background-color: #7d7d8c;
   text-align: center;
   padding: 15px;
   grid-column: span 12;
@@ -36,27 +39,42 @@ Nav li a{
   text-align: center;
   font-family: "courier";
   transition: background-color 0.5s;
+  border-radius: 10px;
 }
 nav ul li{
     list-style-type: none;
     display: inline-block;
 }
 nav a:hover{
-  background-color: black;
+  background-color: #7d7d8c;
 }
 Footer{
-  background-color: #7d7d8c;
+  text-align: center;
+  color: white;
+  background-color: #2f3340;
   grid-column: span 12;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 10px;
 }
 #copyright{
-  padding: 10px;
   font-weight: bold;
   font-family: "courier";
 }
+footer a {
+  color: white;
+}
+Footer a:hover{
+  color: #7d7d8c;
+}
 .slideshow{
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-top: 10px;
+  width: 1100px;
+  margin-left: 50px;
+  margin-right: 50px;
   grid-column: span 12;
-  width: initial;
-  background-color: red;
+  border-radius: 10px;
+}
+img{
+  Height:500px
 }
