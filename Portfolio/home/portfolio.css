@@ -81,11 +81,11 @@ Footer a:hover{
 main img{
   Height:500px
 }
-#img1:hover{
-position: absolute;
+.img:hover{
+position: relative;
 float:left;
 }
-#img1 img:hover{
+.img img:hover{
 Filter: brightness(50%);
 }
 .txt{
