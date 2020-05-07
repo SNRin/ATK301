@@ -70,3 +70,15 @@ footer a {
 Footer a:hover{
   color: #7d7d8c;
 }
+main{
+  width: 1200px;
+  height: 500px;
+}
+.mosaic{
+  grid-column: span 12;
+  text-align: center;
+}
+main img{
+  margin:15px;
+  height: 225px;
+}

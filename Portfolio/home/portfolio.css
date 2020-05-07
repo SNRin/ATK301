@@ -79,23 +79,27 @@ Footer a:hover{
   border-radius: 10px;
 }
 main img{
-  Height:500px
+  Height:500px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-.img:hover{
+.img4 img{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.img:hover, .txt:hover, .img4:hover, .txt4:hover{
 position: relative;
-float:left;
 }
-.img img:hover{
+.img img:hover, .img4 img:hover{
 Filter: brightness(50%);
 }
-.txt{
+.txt, .txt4{
   font-size: 50px;
   position: absolute;
-  bottom: 20px;
-  Left: 20px;
-  background-color: brightness(50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 10px;
+  text-align: justify;
+  font-family: 'Fjalla One', sans-serif;
 }
